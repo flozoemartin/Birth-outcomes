@@ -1,7 +1,7 @@
 # Antidepressants and birth outcomes
 Antidepressant use during pregnancy and birth outcomes: analysis of electronic health data from the UK, Norway, and Sweden
 
-Population derivation for this project can be found at https://github.com/flozoemartin/Population-derivation
+Population derivation for the UK arm of this project can be found at https://github.com/flozoemartin/Population-derivation
 
 Codelists for this project can be found at https://github.com/flozoemartin/codelists/
 
