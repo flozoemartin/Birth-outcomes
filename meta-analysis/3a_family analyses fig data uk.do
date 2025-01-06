@@ -1,7 +1,7 @@
 
 /*******************************************************************************
 
-	Generate data for the Norwegian family analyses figure
+	Generate data for the UK analyses for meta-analysis
 
 	Author: Flo Martin
 
@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\3_figures\3a_family analyses fig data uk", name(family_analyses_fig_data_uk) replace
+	log using "$Logdir\meta analysis\3a_family analyses fig data uk", name(family_analyses_fig_data_uk) replace
 	
 ********************************************************************************	
 
@@ -177,8 +177,8 @@
 
 	log close family_analyses_fig_data_uk
 	
-	translate "$Logdir\3_figures\3a_family analyses fig data uk.smcl" "$Logdir\3_figures\3a_family analyses fig data uk.pdf", replace
+	translate "$Logdir\meta analysis\3a_family analyses fig data uk.smcl" "$Logdir\meta analysis\3a_family analyses fig data uk.pdf", replace
 	
-	erase "$Logdir\3_figures\3a_family analyses fig data uk.smcl"
+	erase "$Logdir\meta analysis\3a_family analyses fig data uk.smcl"
 	
 ********************************************************************************	
