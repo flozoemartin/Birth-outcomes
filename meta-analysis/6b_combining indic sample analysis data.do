@@ -1,7 +1,7 @@
 
 /*******************************************************************************
 
-	Combine the data and counts from 
+	Combine the data and counts from UK, Norway, and Sweden
 
 	Author: Flo Martin
 
@@ -15,9 +15,10 @@
 
 * Start logging
 
-	log using "$Logdir\3_figures\6b_combining indic sample data", name(combining_indic_sample_data) replace
+	log using "$Logdir\meta analysis\6b_combining indic sample data", name(combining_indic_sample_data) replace
 	
-********************************************************************************	
+********************************************************************************
+
 * Norway
 * Maternal model counts
 
@@ -83,8 +84,8 @@
 
 	log close combining_indic_sample_data
 	
-	translate "$Logdir\3_figures\6b_combining indic sample data.smcl" "$Logdir\3_figures\6b_combining indic sample data.pdf", replace
+	translate "$Logdir\meta analysis\6b_combining indic sample data.smcl" "$Logdir\meta analysis\6b_combining indic sample data.pdf", replace
 	
-	erase "$Logdir\3_figures\6b_combining indic sample data.smcl"
+	erase "$Logdir\meta analysis\6b_combining indic sample data.smcl"
 	
 ********************************************************************************
