@@ -1,16 +1,16 @@
-/********************************************************************************
+********************************************************************************
 
-Exposure and outcome discordant counts in the sibling analysis
+* Exposure and outcome discordant counts in the sibling analysis
 
-Author: Flo Martin 
+* Author: Flo Martin 
 
-Date: 08/04/24
+* Date: 08/04/24
 
 ********************************************************************************
 
-- sibling discordance.txt
+* sibling discordance.txt
 
-********************************************************************************/
+********************************************************************************
 
 * Start logging
 
