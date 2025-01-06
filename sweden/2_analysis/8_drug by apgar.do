@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\2_analysis\10_apgar5 by drug", name(apgar5_by_drug) replace
+	log using "$Logdir\2_analysis\8_apgar5 by drug", name(apgar5_by_drug) replace
 	
 ********************************************************************************	
 
@@ -72,8 +72,8 @@
 
 	log close apgar5_by_drug
 	
-	translate "$Logdir\2_analysis\10_apgar5 by drug.smcl" "$Logdir\2_analysis\10_apgar5 by drug.pdf", replace
+	translate "$Logdir\2_analysis\8_apgar5 by drug.smcl" "$Logdir\2_analysis\8_apgar5 by drug.pdf", replace
 	
-	erase "$Logdir\2_analysis\10_apgar5 by drug.smcl"
+	erase "$Logdir\2_analysis\8_apgar5 by drug.smcl"
 	
 ********************************************************************************/
