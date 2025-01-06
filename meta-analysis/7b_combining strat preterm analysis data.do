@@ -1,7 +1,7 @@
 
 /*******************************************************************************
 
-	Combine the data and counts from 
+	Combine the data and counts from the UK, Norway, and Sweden
 
 	Author: Flo Martin
 
@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\3_figures\7b_combining preterm type data", name(combining_preterm_type_data) replace
+	log using "$Logdir\meta analysis\7b_combining preterm type data", name(combining_preterm_type_data) replace
 	
 ********************************************************************************	
 
@@ -73,8 +73,8 @@
 
 	log close combining_preterm_type_data
 	
-	translate "$Logdir\3_figures\7b_combining preterm type data.smcl" "$Logdir\3_figures\7b_combining preterm type data.pdf", replace
+	translate "$Logdir\meta analysis\7b_combining preterm type data.smcl" "$Logdir\meta analysis\7b_combining preterm type data.pdf", replace
 	
-	erase "$Logdir\3_figures\7b_combining preterm type data.smcl"
+	erase "$Logdir\meta analysis\7b_combining preterm type data.smcl"
 	
 ********************************************************************************
