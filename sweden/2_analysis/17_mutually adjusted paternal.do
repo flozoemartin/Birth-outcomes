@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\2_analysis\19_mutually adjusted paternal", name(mutually_adjusted_paternal) replace
+	log using "$Logdir\2_analysis\17_mutually adjusted paternal", name(mutually_adjusted_paternal) replace
 	
 ********************************************************************************	
 
@@ -149,8 +149,8 @@
 
 	log close mutually_adjusted_paternal
 	
-	translate "$Logdir\2_analysis\19_mutually adjusted paternal.smcl" "$Logdir\2_analysis\19_mutually adjusted paternal.pdf", replace
+	translate "$Logdir\2_analysis\17_mutually adjusted paternal.smcl" "$Logdir\2_analysis\17_mutually adjusted paternal.pdf", replace
 	
-	erase "$Logdir\2_analysis\19_mutually adjusted paternal.smcl"
+	erase "$Logdir\2_analysis\17_mutually adjusted paternal.smcl"
 	
 ********************************************************************************
