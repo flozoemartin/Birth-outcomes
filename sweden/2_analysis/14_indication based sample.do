@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\2_analysis\16_indication based sample", name(indic_based_sample) replace
+	log using "$Logdir\2_analysis\14_indication based sample", name(indic_based_sample) replace
 	
 ********************************************************************************	
 
@@ -151,8 +151,8 @@
 
 	log close indic_based_sample
 	
-	translate "$Logdir\2_analysis\16_indication based sample.smcl" "$Logdir\2_analysis\16_indication based sample.pdf", replace
+	translate "$Logdir\2_analysis\14_indication based sample.smcl" "$Logdir\2_analysis\14_indication based sample.pdf", replace
 	
-	erase "$Logdir\2_analysis\16_indication based sample.smcl"
+	erase "$Logdir\2_analysis\14_indication based sample.smcl"
 	
 ********************************************************************************
