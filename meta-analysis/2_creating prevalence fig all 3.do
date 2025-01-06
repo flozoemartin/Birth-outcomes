@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\3_figures\2_creating prevalence fig all 3", name(creating_prevalence_fig_all_3) replace
+	log using "$Logdir\meta analysis\2_creating prevalence fig all 3", name(creating_prevalence_fig_all_3) replace
 	
 ********************************************************************************
 
@@ -184,8 +184,8 @@
 
 	log close creating_prevalence_fig_all_3
 	
-	translate "$Logdir\3_figures\2_creating prevalence fig all 3.smcl" "$Logdir\3_figures\2_creating prevalence fig all 3.pdf", replace
+	translate "$Logdir\meta analysis\2_creating prevalence fig all 3.smcl" "$Logdir\meta analysis\2_creating prevalence fig all 3.pdf", replace
 	
-	erase "$Logdir\3_figures\2_creating prevalence fig all 3.smcl"
+	erase "$Logdir\meta analysis\2_creating prevalence fig all 3.smcl"
 	
 ********************************************************************************
