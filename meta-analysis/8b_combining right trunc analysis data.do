@@ -1,7 +1,7 @@
 
 /*******************************************************************************
 
-	Combine the data and counts from 
+	Combine the data and counts from the UK, Norway, and Sweden
 
 	Author: Flo Martin
 
@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\3_figures\8b_combining right trunc data", name(combining_right_trunc_data) replace
+	log using "$Logdir\meta analysis\8b_combining right trunc data", name(combining_right_trunc_data) replace
 	
 ********************************************************************************	
 * Norway
@@ -67,8 +67,8 @@
 
 	log close combining_right_trunc_data
 	
-	translate "$Logdir\3_figures\8b_combining right trunc data.smcl" "$Logdir\3_figures\8b_combining right trunc data.pdf", replace
+	translate "$Logdir\meta analysis\8b_combining right trunc data.smcl" "$Logdir\meta analysis\8b_combining right trunc data.pdf", replace
 	
-	erase "$Logdir\3_figures\8b_combining right trunc data.smcl"
+	erase "$Logdir\meta analysis\8b_combining right trunc data.smcl"
 	
 ********************************************************************************
