@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\2_analysis\6_sibling analysis", name(sibling_analysis) replace
+	log using "$Logdir\2_analysis\4_sibling analysis", name(sibling_analysis) replace
 	
 ********************************************************************************
 	
@@ -228,8 +228,8 @@
 
 	log close sibling_analysis
 	
-	translate "$Logdir\2_analysis\6_sibling analysis.smcl" "$Logdir\2_analysis\6_sibling analysis.pdf", replace
+	translate "$Logdir\2_analysis\4_sibling analysis.smcl" "$Logdir\2_analysis\4_sibling analysis.pdf", replace
 	
-	erase "$Logdir\2_analysis\6_sibling analysis.smcl"
+	erase "$Logdir\2_analysis\4_sibling analysis.smcl"
 	
 ********************************************************************************
