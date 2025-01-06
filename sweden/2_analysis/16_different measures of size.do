@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\2_analysis\18_different measures of size", name(diff_measures_size) replace
+	log using "$Logdir\2_analysis\16_different measures of size", name(diff_measures_size) replace
 	
 ********************************************************************************	
 
@@ -84,8 +84,8 @@
 
 	log close diff_measures_size
 	
-	translate "$Logdir\2_analysis\18_different measures of size.smcl" "$Logdir\2_analysis\18_different measures of size.pdf", replace
+	translate "$Logdir\2_analysis\16_different measures of size.smcl" "$Logdir\2_analysis\16_different measures of size.pdf", replace
 	
-	erase "$Logdir\2_analysis\18_different measures of size.smcl"
+	erase "$Logdir\2_analysis\16_different measures of size.smcl"
 	
 ********************************************************************************
