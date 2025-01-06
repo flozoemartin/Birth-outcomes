@@ -19,7 +19,7 @@
 
 /* Start logging
 
-	log using "$Logdir\3_figures\4c_meta analysis drug fig all 3", name(meta_analysis_drug_fig_all_3) replace
+	log using "$Logdir\meta analysis\4c_meta analysis drug fig all 3", name(meta_analysis_drug_fig_all_3) replace
 	
 ********************************************************************************/
 
@@ -1262,6 +1262,8 @@
 	
 ********************************************************************************/
 
+* Thesis figure
+
 /*	use preterm_ma, clear
 	gen model=1
 	drop if _USE==0 | _USE==6
@@ -1522,7 +1524,7 @@
 	graphregion(color(white) fcolor(white) ifcolor(white) lcolor(white)) legend(order(3 "Preterm delivery" 4 "SGA" 5 "Low Apgar score") size(*0.6) pos(5) col(1) region(lcolor(black))) /// 
 	name(prim, replace) 
 	
-	*graph export "C:\Users\ti19522\OneDrive - University of Bristol\Flo Martin Supervisory Team\Year 4\6_Birth outcomes\ch6_drug_spec_fig.pdf", replace
+	*graph export "$Graphdir\ch6_drug_spec_fig.pdf", replace
 
 /********************************************************************************
 
@@ -1543,8 +1545,8 @@
 
 	log close meta_analysis_drug_fig_all_3
 	
-	translate "$Logdir\3_figures\4c_meta analysis drug fig all 3.smcl" "$Logdir\3_figures\4c_meta analysis drug fig all 3.pdf", replace
+	translate "$Logdir\meta analysis\4c_meta analysis drug fig all 3.smcl" "$Logdir\meta analysis\4c_meta analysis drug fig all 3.pdf", replace
 	
-	erase "$Logdir\3_figures\4c_meta analysis drug fig all 3.smcl"
+	erase "$Logdir\meta analysis\4c_meta analysis drug fig all 3.smcl"
 	
 ********************************************************************************
