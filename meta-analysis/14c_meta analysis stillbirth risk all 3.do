@@ -1,3 +1,13 @@
+/*******************************************************************************
+
+	Creating a meta-analysis figure for all three countries for adjusted absolute risk 
+
+	Author: Flo Martin
+
+	Date: 02/12/2023
+		
+*******************************************************************************/
+
 * Stillbirth 
 
 	import delimited using "$NOTabledir\august 24\primary analysis_mat.txt", clear
@@ -61,3 +71,5 @@
 	gen loguci = log(risk_uci)
 	
 	metan logrisk loglci loguci, eform by(drug) lcols(country total_exp) saving(stillborn_risk_ma, replace) 
+
+*******************************************************************************
