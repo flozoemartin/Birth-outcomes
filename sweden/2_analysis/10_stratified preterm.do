@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\2_analysis\12_stratified preterm", name(stratified_preterm) replace
+	log using "$Logdir\2_analysis\10_stratified preterm", name(stratified_preterm) replace
 	
 ********************************************************************************	
 
@@ -110,8 +110,8 @@
 
 	log close stratified_preterm
 	
-	translate "$Logdir\2_analysis\12_stratified preterm.smcl" "$Logdir\2_analysis\12_stratified preterm.pdf", replace
+	translate "$Logdir\2_analysis\10_stratified preterm.smcl" "$Logdir\2_analysis\10_stratified preterm.pdf", replace
 	
-	erase "$Logdir\2_analysis\12_stratified preterm.smcl"
+	erase "$Logdir\2_analysis\10_stratified preterm.smcl"
 	
 ********************************************************************************
