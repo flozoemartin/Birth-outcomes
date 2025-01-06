@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\2_analysis\13_spontaneous and induced preterm", name(spontaneous_and_induced_preterm) replace
+	log using "$Logdir\2_analysis\11_spontaneous and induced preterm", name(spontaneous_and_induced_preterm) replace
 	
 ********************************************************************************	
 
@@ -88,8 +88,8 @@
 
 	log close spontaneous_and_induced_preterm
 	
-	translate "$Logdir\2_analysis\13_spontaneous and induced preterm.smcl" "$Logdir\2_analysis\13_spontaneous and induced preterm.pdf", replace
+	translate "$Logdir\2_analysis\11_spontaneous and induced preterm.smcl" "$Logdir\2_analysis\11_spontaneous and induced preterm.pdf", replace
 	
-	erase "$Logdir\2_analysis\13_spontaneous and induced preterm.smcl"
+	erase "$Logdir\2_analysis\11_spontaneous and induced preterm.smcl"
 	
 ********************************************************************************
