@@ -114,7 +114,7 @@
 		
 		file write tablecontent "Maternal smoking status at the start pregnancy" _n
 
-		tabulatevariable, variable(smoke_beg) start(1) end(1) missing outcome(any_preg) 
+		tabulatevariable, variable(smoke_preg) start(1) end(1) missing outcome(any_preg) 
 
 		/*file write tablecontent "Maternal alcohol intake during or before pregnancy" _n
 
