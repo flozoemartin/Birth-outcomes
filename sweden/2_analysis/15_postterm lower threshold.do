@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\2_analysis\17_postterm lower threshold", name(postterm_lower_threshold) replace
+	log using "$Logdir\2_analysis\15_postterm lower threshold", name(postterm_lower_threshold) replace
 	
 ********************************************************************************	
 
@@ -84,8 +84,8 @@
 
 	log close postterm_lower_threshold
 	
-	translate "$Logdir\2_analysis\17_postterm lower threshold.smcl" "$Logdir\2_analysis\17_postterm lower threshold.pdf", replace
+	translate "$Logdir\2_analysis\15_postterm lower threshold.smcl" "$Logdir\2_analysis\15_postterm lower threshold.pdf", replace
 	
-	erase "$Logdir\2_analysis\17_postterm lower threshold.smcl"
+	erase "$Logdir\2_analysis\15_postterm lower threshold.smcl"
 	
 ********************************************************************************
