@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\2_analysis\14_postterm among spontaneous", name(postterm_among_spontaneous) replace
+	log using "$Logdir\2_analysis\12_postterm among spontaneous", name(postterm_among_spontaneous) replace
 	
 ********************************************************************************	
 
@@ -84,8 +84,8 @@
 
 	log close postterm_among_spontaneous
 	
-	translate "$Logdir\2_analysis\14_postterm among spontaneous.smcl" "$Logdir\2_analysis\14_postterm among spontaneous.pdf", replace
+	translate "$Logdir\2_analysis\12_postterm among spontaneous.smcl" "$Logdir\2_analysis\12_postterm among spontaneous.pdf", replace
 	
-	erase "$Logdir\2_analysis\14_postterm among spontaneous.smcl"
+	erase "$Logdir\2_analysis\12_postterm among spontaneous.smcl"
 	
 ********************************************************************************
