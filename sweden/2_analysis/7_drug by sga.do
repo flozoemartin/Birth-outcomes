@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\2_analysis\9_sga by drug", name(sga_by_drug) replace
+	log using "$Logdir\2_analysis\7_sga by drug", name(sga_by_drug) replace
 	
 ********************************************************************************	
 
@@ -98,8 +98,8 @@
 
 	log close sga_by_drug
 	
-	translate "$Logdir\2_analysis\9_sga by drug.smcl" "$Logdir\2_analysis\9_sga by drug.pdf", replace
+	translate "$Logdir\2_analysis\7_sga by drug.smcl" "$Logdir\2_analysis\7_sga by drug.pdf", replace
 	
-	erase "$Logdir\2_analysis\9_sga by drug.smcl"
+	erase "$Logdir\2_analysis\7_sga by drug.smcl"
 	
 ********************************************************************************/
