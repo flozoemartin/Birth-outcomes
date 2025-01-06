@@ -1,7 +1,7 @@
 
 /*******************************************************************************
 
-	Generate data for the drug-specific analysis in one country (UK)
+	Combine data from each country
 
 	Author: Flo Martin
 
@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\3_figures\4b_combining drug analysis data", name(combining_drug_analysis_data) replace
+	log using "$Logdir\meta analysis\4b_combining drug analysis data", name(combining_drug_analysis_data) replace
 	
 ********************************************************************************	
 
@@ -142,8 +142,8 @@
 
 	log close combining_drug_analysis_data
 	
-	translate "$Logdir\3_figures\4b_combining drug analysis data.smcl" "$Logdir\3_figures\4b_combining drug analysis data.pdf", replace
+	translate "$Logdir\meta analysis\4b_combining drug analysis data.smcl" "$Logdir\meta analysis\4b_combining drug analysis data.pdf", replace
 	
-	erase "$Logdir\3_figures\4b_combining drug analysis data.smcl"
+	erase "$Logdir\meta analysis\4b_combining drug analysis data.smcl"
 	
 ********************************************************************************
