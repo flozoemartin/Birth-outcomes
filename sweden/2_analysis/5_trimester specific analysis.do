@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\2_analysis\7_trimester specific analysis", name(trimester_specific_analysis) replace
+	log using "$Logdir\2_analysis\5_trimester specific analysis", name(trimester_specific_analysis) replace
 	
 ********************************************************************************	
 
@@ -86,8 +86,8 @@
 
 	log close trimester_specific_analysis
 	
-	translate "$Logdir\2_analysis\7_trimester specific analysis.smcl" "$Logdir\2_analysis\7_trimester specific analysis.pdf", replace
+	translate "$Logdir\2_analysis\5_trimester specific analysis.smcl" "$Logdir\2_analysis\5_trimester specific analysis.pdf", replace
 	
-	erase "$Logdir\2_analysis\7_trimester specific analysis.smcl"
+	erase "$Logdir\2_analysis\5_trimester specific analysis.smcl"
 	
 ********************************************************************************
