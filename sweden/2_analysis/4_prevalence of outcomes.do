@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\2_analysis\4_prevalence_of_outcomes_table", name(prevalence_of_outcomes_table) replace
+	log using "$Logdir\2_analysis\2_prevalence_of_outcomes_table", name(prevalence_of_outcomes_table) replace
 	
 ********************************************************************************	
 	
@@ -298,8 +298,8 @@
 
 	log close prevalence_of_outcomes_table
 	
-	translate "$Logdir\2_analysis\4_prevalence_of_outcomes_table.smcl" "$Logdir\2_analysis\4_prevalence_of_outcomes_table.pdf", replace
+	translate "$Logdir\2_analysis\2_prevalence_of_outcomes_table.smcl" "$Logdir\2_analysis\2_prevalence_of_outcomes_table.pdf", replace
 	
-	erase "$Logdir\2_analysis\4_prevalence_of_outcomes_table.smcl"
+	erase "$Logdir\2_analysis\2_prevalence_of_outcomes_table.smcl"
 	
 ********************************************************************************/
