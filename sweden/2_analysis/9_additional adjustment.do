@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\2_analysis\11_sens additional adjustment", name(sens_additional_adjustment) replace
+	log using "$Logdir\2_analysis\9_sens additional adjustment", name(sens_additional_adjustment) replace
 	
 ********************************************************************************	
 
@@ -149,8 +149,8 @@
 
 	log close sens_additional_adjustment
 	
-	translate "$Logdir\2_analysis\11_sens additional adjustment.smcl" "$Logdir\2_analysis\11_sens additional adjustment.pdf", replace
+	translate "$Logdir\2_analysis\9_sens additional adjustment.smcl" "$Logdir\2_analysis\9_sens additional adjustment.pdf", replace
 	
-	erase "$Logdir\2_analysis\11_sens additional adjustment.smcl"
+	erase "$Logdir\2_analysis\9_sens additional adjustment.smcl"
 	
 ********************************************************************************
