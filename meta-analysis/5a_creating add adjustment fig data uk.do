@@ -1,6 +1,6 @@
 /*******************************************************************************
 
-	Generate data to include in the figure of prescribing over time for UK
+	Generate data from additional adjustment sensitivity analysis in the UK
 
 	Author: Flo Martin
 
