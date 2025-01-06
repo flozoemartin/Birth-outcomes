@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\2_analysis\22_primary analysis in sibs", name(primary_analysis_in_sibs) replace
+	log using "$Logdir\2_analysis\20_primary analysis in sibs", name(primary_analysis_in_sibs) replace
 	
 ********************************************************************************	
 
@@ -153,8 +153,8 @@
 
 	log close primary_analysis_in_sibs
 	
-	translate "$Logdir\2_analysis\22_primary analysis in sibs.smcl" "$Logdir\2_analysis\22_primary analysis in sibs.pdf", replace
+	translate "$Logdir\2_analysis\20_primary analysis in sibs.smcl" "$Logdir\2_analysis\20_primary analysis in sibs.pdf", replace
 	
-	erase "$Logdir\2_analysis\22_primary analysis in sibs.smcl"
+	erase "$Logdir\2_analysis\20_primary analysis in sibs.smcl"
 	
 ********************************************************************************/
