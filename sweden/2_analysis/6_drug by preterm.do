@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\2_analysis\8_preterm by drug", name(preterm_by_drug) replace
+	log using "$Logdir\2_analysis\6_preterm by drug", name(preterm_by_drug) replace
 	
 ********************************************************************************	
 
@@ -99,8 +99,8 @@
 
 	log close preterm_by_drug
 	
-	translate "$Logdir\2_analysis\8_preterm by drug.smcl" "$Logdir\2_analysis\8_preterm by drug.pdf", replace
+	translate "$Logdir\2_analysis\6_preterm by drug.smcl" "$Logdir\2_analysis\6_preterm by drug.pdf", replace
 	
-	erase "$Logdir\2_analysis\8_preterm by drug.smcl"
+	erase "$Logdir\2_analysis\6_preterm by drug.smcl"
 	
 ********************************************************************************/
