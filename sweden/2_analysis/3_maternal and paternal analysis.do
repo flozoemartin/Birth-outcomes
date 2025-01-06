@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\2_analysis\5_primary analysis", name(primary_analysis) replace
+	log using "$Logdir\2_analysis\3_maternal and paternal analysis", name(mat_pat_analysis) replace
 	
 ********************************************************************************	
 
@@ -275,10 +275,10 @@
 
 * Stop logging, translate .smcl into .pdf and erase .smcl
 
-	log close primary_analysis
+	log close mat_pat_analysis
 	
-	translate "$Logdir\2_analysis\5_primary analysis.smcl" "$Logdir\2_analysis\5_primary analysis.pdf", replace
+	translate "$Logdir\2_analysis\3_maternal and paternal analysis.smcl" "$Logdir\2_analysis\3_maternal and paternal analysis.pdf", replace
 	
-	erase "$Logdir\2_analysis\5_primary analysis.smcl"
+	erase "$Logdir\2_analysis\3_maternal and paternal analysis.smcl"
 	
 ********************************************************************************/
