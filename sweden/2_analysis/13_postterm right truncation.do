@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\2_analysis\15_postterm full follow up", name(postterm_full_follow_up) replace
+	log using "$Logdir\2_analysis\13_postterm full follow up", name(postterm_full_follow_up) replace
 	
 ********************************************************************************	
 
@@ -86,8 +86,8 @@
 
 	log close postterm_full_follow_up
 	
-	translate "$Logdir\2_analysis\15_postterm full follow up.smcl" "$Logdir\2_analysis\15_postterm full follow up.pdf", replace
+	translate "$Logdir\2_analysis\13_postterm full follow up.smcl" "$Logdir\2_analysis\13_postterm full follow up.pdf", replace
 	
-	erase "$Logdir\2_analysis\15_postterm full follow up.smcl"
+	erase "$Logdir\2_analysis\13_postterm full follow up.smcl"
 	
 ********************************************************************************
