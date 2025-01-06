@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\2_analysis\21_characteristics in sib sample", name(characteristics_in_sibs) replace
+	log using "$Logdir\2_analysis\19_characteristics in sib sample", name(characteristics_in_sibs) replace
 	
 ********************************************************************************	
 
@@ -205,8 +205,8 @@
 
 	log close characteristics_in_sibs
 	
-	translate "$Logdir\2_analysis\21_characteristics in sib sample.smcl" "$Logdir\2_analysis\21_characteristics in sib sample.pdf", replace
+	translate "$Logdir\2_analysis\19_characteristics in sib sample.smcl" "$Logdir\2_analysis\19_characteristics in sib sample.pdf", replace
 	
-	erase "$Logdir\2_analysis\21_characteristics in sib sample.smcl"
+	erase "$Logdir\2_analysis\19_characteristics in sib sample.smcl"
 	
 ********************************************************************************
