@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\2_analysis\20_characteristics by pat", name(characteristics_by_pat) replace
+	log using "$Logdir\2_analysis\18_characteristics by pat", name(characteristics_by_pat) replace
 	
 ********************************************************************************	
 
@@ -450,8 +450,8 @@
 
 	log close characteristics_by_pat
 	
-	translate "$Logdir\2_analysis\20_characteristics by pat.smcl" "$Logdir\2_analysis\20_characteristics by pat.pdf", replace
+	translate "$Logdir\2_analysis\18_characteristics by pat.smcl" "$Logdir\2_analysis\18_characteristics by pat.pdf", replace
 	
-	erase "$Logdir\2_analysis\20_characteristics by pat.smcl"
+	erase "$Logdir\2_analysis\18_characteristics by pat.smcl"
 	
 ********************************************************************************
