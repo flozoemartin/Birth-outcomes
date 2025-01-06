@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\3_figures\4a_creating drug fig data uk", name(creating_drug_fig_data_uk) replace
+	log using "$Logdir\meta analysis\4a_creating drug fig data uk", name(creating_drug_fig_data_uk) replace
 	
 ********************************************************************************	
 
@@ -145,8 +145,8 @@
 
 	log close creating_drug_fig_data_uk
 	
-	translate "$Logdir\3_figures\4a_creating drug fig data uk.smcl" "$Logdir\3_figures\4a_creating drug fig data uk.pdf", replace
+	translate "$Logdir\meta analysis\4a_creating drug fig data uk.smcl" "$Logdir\meta analysis\4a_creating drug fig data uk.pdf", replace
 	
-	erase "$Logdir\3_figures\4a_creating drug fig data uk.smcl"
+	erase "$Logdir\meta analysis\4a_creating drug fig data uk.smcl"
 	
 ********************************************************************************
