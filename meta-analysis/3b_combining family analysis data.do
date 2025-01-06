@@ -1,7 +1,7 @@
 
 /*******************************************************************************
 
-	Combine the data and counts from 
+	Combine the data and counts from the UK, Norway, and Sweden
 
 	Author: Flo Martin
 
@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\3_figures\3b_combining family analysis data", name(combining_family_analysis_data) replace
+	log using "$Logdir\meta analysis\3b_combining family analysis data", name(combining_family_analysis_data) replace
 	
 ********************************************************************************	
 
@@ -182,8 +182,8 @@
 
 	log close combining_family_analysis_data
 	
-	translate "$Logdir\3_figures\3b_combining family analysis data.smcl" "$Logdir\3_figures\3b_combining family analysis data.pdf", replace
+	translate "$Logdir\meta analysis\3b_combining family analysis data.smcl" "$Logdir\meta analysis\3b_combining family analysis data.pdf", replace
 	
-	erase "$Logdir\3_figures\3b_combining family analysis data.smcl"
+	erase "$Logdir\meta analysis\3b_combining family analysis data.smcl"
 	
 ********************************************************************************
