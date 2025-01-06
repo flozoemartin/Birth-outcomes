@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\3_figures\11a_spont and induc preterm fig data uk", name(spont_induc_pt_fig_data_uk) replace
+	log using "$Logdir\meta analysis\11a_spont and induc preterm fig data uk", name(spont_induc_pt_fig_data_uk) replace
 	
 ********************************************************************************	
 
@@ -81,8 +81,8 @@
 
 	log close spont_induc_pt_fig_data_uk
 	
-	translate "$Logdir\3_figures\11a_spont and induc preterm fig data uk.smcl" "$Logdir\3_figures\11a_spont and induc preterm fig data uk.pdf", replace
+	translate "$Logdir\meta analysis\11a_spont and induc preterm fig data uk.smcl" "$Logdir\meta analysis\11a_spont and induc preterm fig data uk.pdf", replace
 	
-	erase "$Logdir\3_figures\11a_spont and induc preterm fig data uk.smcl"
+	erase "$Logdir\meta analysis\11a_spont and induc preterm fig data uk.smcl"
 	
 ********************************************************************************	
