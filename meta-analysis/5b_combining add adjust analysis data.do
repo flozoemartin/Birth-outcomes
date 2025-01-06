@@ -1,7 +1,7 @@
 
 /*******************************************************************************
 
-	Combine the data and counts from 
+	Combine the data and counts from UK, Norway, and Sweden
 
 	Author: Flo Martin
 
@@ -15,7 +15,7 @@
 
 * Start logging
 
-	log using "$Logdir\3_figures\5b_combining add adjust data", name(combining_add_adjust_data) replace
+	log using "$Logdir\meta analysis\5b_combining add adjust data", name(combining_add_adjust_data) replace
 	
 *******************************************************************************	
 
@@ -83,8 +83,8 @@
 
 	log close combining_add_adjust_data
 	
-	translate "$Logdir\3_figures\5b_combining add adjust data.smcl" "$Logdir\3_figures\5b_combining add adjust data.pdf", replace
+	translate "$Logdir\meta analysis\5b_combining add adjust data.smcl" "$Logdir\meta analysis\5b_combining add adjust data.pdf", replace
 	
-	erase "$Logdir\3_figures\5b_combining add adjust data.smcl"
+	erase "$Logdir\meta analysis\5b_combining add adjust data.smcl"
 	
 ********************************************************************************
