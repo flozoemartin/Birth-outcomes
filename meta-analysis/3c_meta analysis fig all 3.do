@@ -19,7 +19,7 @@
 
 * Start logging
 
-	log using "$Logdir\3_figures\3c_meta analysis fig all 3", name(meta_analysis_fig_all_3) replace
+	log using "$Logdir\meta analysis\3c_meta analysis fig all 3", name(meta_analysis_fig_all_3) replace
 	
 ********************************************************************************
 
@@ -1143,7 +1143,7 @@
 	cd "$Graphdir"
 	graph export primary_ma_forestdesign.pdf, replace 
 	
-* Combination
+* Combination - thesis figure
 
 	use mat_ma, clear
 	gen model=1
@@ -1392,7 +1392,7 @@
 	legend(order(3 "Maternal" 4 "Sibling" 5 "Paternal") size(*0.75) pos(5) col(1) region(lcolor(black))) ///
 	graphregion(color(white) fcolor(white) ifcolor(white) lcolor(white)) name(prim, replace) 
 	
-	graph export "C:\Users\ti19522\OneDrive - University of Bristol\Flo Martin Supervisory Team\Year 4\6_Birth outcomes\ch6_family_based_fig.pdf", replace
+	graph export "$Graphdir\ch6_family_based_fig.pdf", replace
 	
 ********************************************************************************
 
@@ -1407,8 +1407,8 @@
 
 	log close meta_analysis_fig_all_3
 	
-	translate "$Logdir\3_figures\3c_meta analysis fig all 3.smcl" "$Logdir\3_figures\3c_meta analysis fig all 3.pdf", replace
+	translate "$Logdir\meta analysis\3c_meta analysis fig all 3.smcl" "$Logdir\meta analysis\3c_meta analysis fig all 3.pdf", replace
 	
-	erase "$Logdir\3_figures\3c_meta analysis fig all 3.smcl"
+	erase "$Logdir\meta analysis\3c_meta analysis fig all 3.smcl"
 	
 ********************************************************************************/
